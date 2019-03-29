@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+@import "breakpoint";
+
+// !!! check path
+//
+// below template for contrib/custom structure:
+// /themes
+//   /contrib
+//     /material_base
+//   /custom
+//     /YOUR_CUSTOM_THEME
+//
+@import "../../../../contrib/material_base/sass/reset";
+@import "../../../../contrib/material_base/sass/color-palette";
+@import "../../../../contrib/material_base/sass/variables";
+@import "../../../../contrib/material_base/sass/modules";
+
+
+@import "variables";
+@import "header";
+
+// put your styles here
+// you can @extend anything from base theme

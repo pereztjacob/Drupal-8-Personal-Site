@@ -1,0 +1,35 @@
+{
+  "name": "material_base",
+  "version": "1.6.0",
+  "description": "Drupal theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-amdroid/material_base.git"
+  },
+  "author": "iamdroid",
+  "license": "ISC",
+  "devDependencies": {
+    "breakpoint-sass": "^2.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eyeglass": "^2.2.1",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-changed": "^3.2.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "susy": "^3.0.5"
+  }
+}
