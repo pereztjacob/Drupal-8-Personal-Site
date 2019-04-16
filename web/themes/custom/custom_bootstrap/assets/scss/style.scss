@@ -6,3 +6,28 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+
+//////////////////
+// Global styles
+///////////////
+
+body {
+  font-family: 'Roboto';
+  font-size: normal;
+  font-weight: 100;
+}
+
+section.col-sm-12 {
+  padding: 0;
+}
+
+.content {
+  padding: 0 50px;
+  @media(max-width: 991px) {
+    padding: 0 30px;
+  }
+  @media(max-width: 480px) {
+    padding: 0 5px;
+  }
+}

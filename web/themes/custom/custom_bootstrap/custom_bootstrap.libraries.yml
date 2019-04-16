@@ -15,3 +15,20 @@ framework:
     assets/bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     assets/bootstrap/assets/javascripts/bootstrap/transition.js: {}
     assets/bootstrap/assets/javascripts/bootstrap/tab.js: {}
+    assets/js/general.js: {}
+
+
+slick:
+ version: 1.8.1
+ css:
+   theme:
+     //cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css: {type: external, minified: false}
+     //cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css: {type: external, minified: false}
+ js:
+   //cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js: { type: external, minified: true }
+
+projects_slider:
+  js:
+    assets/js/project-slider: {}
+  dependencies:
+    - custom_bootstrap/slick

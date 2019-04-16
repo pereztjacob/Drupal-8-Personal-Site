@@ -1,0 +1,50 @@
+.project-teaser-overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.project-teaser-container:hover .project-teaser-overlay {
+  opacity: 0.7;
+}
+
+.project-teaser-overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .field--name-field-project-title {
+    text-align: center;
+    margin: 5px;
+
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .field--name-field-technologies {
+    ul {
+      padding: 0;
+      li {
+        text-align: center;
+        margin-top: 0.3em;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

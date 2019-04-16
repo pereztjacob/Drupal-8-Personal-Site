@@ -1,0 +1,19 @@
+@mixin paragraph-box() {
+  font-size: 16px;
+  padding-top: 20px;
+  div {
+    .field--name-field-paragraph-title {
+      font-size: 20px;
+      font-weight: 1000;
+      letter-spacing: 0.15px;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+@mixin normalize-side-bar() {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}

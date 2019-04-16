@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column template.
+ *
+ * Available variables:
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: content region attributes
+ * - ds_content: content region
+ */
+#}
+
+
+
+<{{ ds_content_wrapper }}{{ attributes.addClass('ds-1col', 'clearfix') }}>
+
+  {{ title_suffix.contextual_links }}
+
+  <div class="project-teaser-container">
+
+    <a href="{{ path('entity.node.canonical', {'node': node.id}) }}">
+      {{ ds_content.field_project_image }}
+      <div class="project-teaser-overlay">
+        <div class="project-teaser-overlay-text">
+          {{ ds_content.field_project_title }}
+          {{ ds_content.field_technologies }}
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="project-teaser-text">
+    <div class="project-teaser-text-bg">
+      {{ ds_content.field_project_title }}
+      {{ ds_content.field_technologies }}
+    </div>
+  </div>
+
+</{{ ds_content_wrapper }}>

@@ -6,3 +6,8 @@
  *
  * Place your custom PHP code in this file.
  */
+
+function custom_bootstrap_preprocess_node(&$variables) {
+  $variables['#attached']['library'][] = 'custom_bootstrap/projects_slider';
+  \Drupal::logger('my_module')->notice('hello');
+}
