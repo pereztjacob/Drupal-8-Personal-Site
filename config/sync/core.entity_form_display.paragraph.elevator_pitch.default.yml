@@ -1,0 +1,25 @@
+uuid: 16105bd5-f025-42a6-a113-9ae6c3daa129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.elevator_pitch.field_pitch
+    - paragraphs.paragraphs_type.elevator_pitch
+  module:
+    - text
+id: paragraph.elevator_pitch.default
+targetEntityType: paragraph
+bundle: elevator_pitch
+mode: default
+content:
+  field_pitch:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

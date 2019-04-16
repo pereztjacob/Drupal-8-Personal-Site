@@ -1,0 +1,30 @@
+uuid: 99bfd0c4-97ba-4f21-a257-fcfede162f69
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - custom_bootstrap
+id: views_block__projects_block_1
+theme: custom_bootstrap
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:projects-block_1'
+settings:
+  id: 'views_block:projects-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

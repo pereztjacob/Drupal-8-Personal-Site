@@ -1,0 +1,24 @@
+uuid: dab0b165-9875-4023-b128-6c4775671fa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.project_container_column.field_project
+    - paragraphs.paragraphs_type.project_container_column
+  module:
+    - entity_reference_revisions
+id: paragraph.project_container_column.default
+targetEntityType: paragraph
+bundle: project_container_column
+mode: default
+content:
+  field_project:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 8e66e900-fe6b-46b3-86b2-689871b885a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_page_title_subheader
+    - paragraphs.paragraphs_type.site_header
+id: paragraph.site_header.field_page_title_subheader
+field_name: field_page_title_subheader
+entity_type: paragraph
+bundle: site_header
+label: 'Page Title Subheader'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '| Web Developer'
+  -
+    value: '( Web Developer )'
+default_value_callback: ''
+settings: {  }
+field_type: string

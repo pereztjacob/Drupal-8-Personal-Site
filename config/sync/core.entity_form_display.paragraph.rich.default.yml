@@ -1,0 +1,34 @@
+uuid: 32a70884-5a4c-4904-a155-6a9f74926461
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.rich.bp_text
+    - field.field.paragraph.rich.field_paragraph_title
+    - paragraphs.paragraphs_type.rich
+  module:
+    - text
+id: paragraph.rich.default
+targetEntityType: paragraph
+bundle: rich
+mode: default
+content:
+  bp_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,9 @@
+uuid: 1a81c169-41cd-4599-8add-edabcd48d024
+langcode: en
+status: true
+dependencies: {  }
+id: elevator_pitch
+label: 'Elevator Pitch'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

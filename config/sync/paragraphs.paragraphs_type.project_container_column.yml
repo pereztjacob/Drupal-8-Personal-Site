@@ -1,0 +1,9 @@
+uuid: 0685117c-582e-4c30-9a85-8fb3222953ab
+langcode: en
+status: true
+dependencies: {  }
+id: project_container_column
+label: 'Project Container Column'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

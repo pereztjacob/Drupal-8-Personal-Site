@@ -1,0 +1,109 @@
+uuid: c4dd1589-900d-4d25-8063-b4b60d3484af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.main
+    - paragraphs.paragraphs_type.bp_accordion
+    - paragraphs.paragraphs_type.bp_accordion_section
+    - paragraphs.paragraphs_type.bp_block
+    - paragraphs.paragraphs_type.bp_columns
+    - paragraphs.paragraphs_type.bp_image
+    - paragraphs.paragraphs_type.bp_modal
+    - paragraphs.paragraphs_type.bp_simple
+    - paragraphs.paragraphs_type.elevator_pitch
+    - paragraphs.paragraphs_type.rich
+    - paragraphs.paragraphs_type.site_header
+  module:
+    - entity_reference_revisions
+id: node.main.field_sections
+field_name: field_sections
+entity_type: node
+bundle: main
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bp_accordion: bp_accordion
+      bp_accordion_section: bp_accordion_section
+      bp_block: bp_block
+      bp_columns: bp_columns
+      bp_image: bp_image
+      bp_modal: bp_modal
+      bp_simple: bp_simple
+      elevator_pitch: elevator_pitch
+      site_header: site_header
+      rich: rich
+    target_bundles_drag_drop:
+      bp_accordion:
+        enabled: true
+        weight: 16
+      bp_accordion_section:
+        enabled: true
+        weight: 17
+      bp_blank:
+        weight: 18
+        enabled: false
+      bp_block:
+        enabled: true
+        weight: 19
+      bp_carousel:
+        weight: 20
+        enabled: false
+      bp_column_wrapper:
+        weight: 21
+        enabled: false
+      bp_columns:
+        enabled: true
+        weight: 22
+      bp_columns_three_uneven:
+        weight: 23
+        enabled: false
+      bp_columns_two_uneven:
+        weight: 24
+        enabled: false
+      bp_image:
+        enabled: true
+        weight: 25
+      bp_modal:
+        enabled: true
+        weight: 26
+      bp_simple:
+        enabled: true
+        weight: 27
+      bp_tab_section:
+        weight: 28
+        enabled: false
+      bp_tabs:
+        weight: 29
+        enabled: false
+      bp_view:
+        weight: 30
+        enabled: false
+      media:
+        weight: 35
+        enabled: false
+      project_boxes:
+        weight: 36
+        enabled: false
+      elevator_pitch:
+        enabled: true
+        weight: 37
+      project_container_column:
+        weight: 38
+        enabled: false
+      site_header:
+        enabled: true
+        weight: 38
+      rich:
+        enabled: true
+        weight: 39
+field_type: entity_reference_revisions

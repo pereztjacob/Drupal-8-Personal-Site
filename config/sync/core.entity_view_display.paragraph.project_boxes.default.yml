@@ -1,0 +1,55 @@
+uuid: f0facc6f-ba37-43f2-86f6-9989bc0970b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.project_boxes.bp_image_field
+    - field.field.paragraph.project_boxes.field_project_notes
+    - paragraphs.paragraphs_type.project_boxes
+  module:
+    - ds
+    - fences
+    - svg_image
+id: paragraph.project_boxes.default
+targetEntityType: paragraph
+bundle: project_boxes
+mode: default
+content:
+  bp_image_field:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_render_as_image: '1'
+      svg_attributes:
+        width: ''
+        height: ''
+    third_party_settings:
+      fences:
+        fences_field_tag: none
+        fences_field_classes: ''
+        fences_field_item_tag: none
+        fences_field_item_classes: ''
+        fences_label_tag: none
+        fences_label_classes: ''
+    type: image
+    region: content
+  field_project_notes:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      fences:
+        fences_field_tag: none
+        fences_field_classes: ''
+        fences_field_item_tag: none
+        fences_field_item_classes: ''
+        fences_label_tag: none
+        fences_label_classes: ''
+      ds:
+        ds_limit: ''
+    type: string
+    region: content
+hidden: {  }

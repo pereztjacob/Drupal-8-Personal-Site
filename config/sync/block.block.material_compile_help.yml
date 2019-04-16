@@ -1,0 +1,22 @@
+uuid: 52e5a58f-4c4c-4080-9cb7-d44aca7c19f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - material_compile
+_core:
+  default_config_hash: bH3KqT6adtfbHcwGE-frpAtCv8PrqNP4wkb0eTSCkD4
+id: material_compile_help
+theme: material_compile
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 685a6bc6-8f8c-4f4f-91d4-dd37c290e98d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - material_compile
+_core:
+  default_config_hash: UeD6LpMMsoIaftRd7dcm_34jfZDRkGh-VowTJ8Pj0Ls
+id: material_compile_local_tasks
+theme: material_compile
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

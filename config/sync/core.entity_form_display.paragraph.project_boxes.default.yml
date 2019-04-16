@@ -1,0 +1,35 @@
+uuid: 2149bd01-d886-4b1a-b3cf-5d564ab19979
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.project_boxes.bp_image_field
+    - field.field.paragraph.project_boxes.field_project_notes
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.project_boxes
+  module:
+    - svg_image
+id: paragraph.project_boxes.default
+targetEntityType: paragraph
+bundle: project_boxes
+mode: default
+content:
+  bp_image_field:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_project_notes:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

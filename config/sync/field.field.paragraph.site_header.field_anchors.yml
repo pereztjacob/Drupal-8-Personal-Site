@@ -1,0 +1,21 @@
+uuid: a0fb3fc4-0dfd-47ab-aebf-6fc2be4f8a45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_anchors
+    - paragraphs.paragraphs_type.site_header
+id: paragraph.site_header.field_anchors
+field_name: field_anchors
+entity_type: paragraph
+bundle: site_header
+label: Anchors
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Contact
+default_value_callback: ''
+settings: {  }
+field_type: string

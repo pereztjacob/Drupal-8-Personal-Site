@@ -1,0 +1,23 @@
+uuid: eebc1d87-17c3-4e49-9ad4-efb240f9f914
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_link
+    - paragraphs.paragraphs_type.site_header
+  module:
+    - link
+id: paragraph.site_header.bp_link
+field_name: bp_link
+entity_type: paragraph
+bundle: site_header
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

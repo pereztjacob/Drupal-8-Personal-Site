@@ -1,0 +1,31 @@
+uuid: f791f68c-e44b-425c-9a9f-3be8dd89173e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'display eu cookie compliance popup'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view paragraph content bp_accordion'
+  - 'view paragraph content bp_accordion_section'
+  - 'view paragraph content bp_blank'
+  - 'view paragraph content bp_block'
+  - 'view paragraph content bp_carousel'
+  - 'view paragraph content bp_column_wrapper'
+  - 'view paragraph content bp_columns'
+  - 'view paragraph content bp_columns_three_uneven'
+  - 'view paragraph content bp_columns_two_uneven'
+  - 'view paragraph content elevator_pitch'

@@ -1,0 +1,9 @@
+uuid: fbb50634-82a1-4f8b-b530-d8fd5a945454
+langcode: en
+status: true
+dependencies: {  }
+id: rich
+label: Rich
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

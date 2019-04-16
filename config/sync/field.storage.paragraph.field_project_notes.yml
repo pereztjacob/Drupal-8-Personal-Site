@@ -1,0 +1,21 @@
+uuid: 7ff8e1aa-7780-49d0-9c5f-03e986b34256
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_project_notes
+field_name: field_project_notes
+entity_type: paragraph
+type: string
+settings:
+  max_length: 55
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

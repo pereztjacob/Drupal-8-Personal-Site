@@ -1,0 +1,31 @@
+uuid: 0ef4be55-f02e-4645-873d-5a26298f88ef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2f53f62a-92f0-417f-84ec-5116d0c77773'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - custom_bootstrap
+id: siteheader
+theme: custom_bootstrap
+region: site_header
+weight: 0
+provider: null
+plugin: 'block_content:2f53f62a-92f0-417f-84ec-5116d0c77773'
+settings:
+  id: 'block_content:2f53f62a-92f0-417f-84ec-5116d0c77773'
+  label: 'Site Header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 578cc489-0d7b-48df-b939-68d2f4a002aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pitch
+    - paragraphs.paragraphs_type.elevator_pitch
+  module:
+    - text
+id: paragraph.elevator_pitch.field_pitch
+field_name: field_pitch
+entity_type: paragraph
+bundle: elevator_pitch
+label: Pitch
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

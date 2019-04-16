@@ -1,0 +1,22 @@
+uuid: 29828d51-93b6-4c85-ba41-0a4ce62cb526
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - material_compile
+_core:
+  default_config_hash: 2Zm3sNLndIBMUNjQ06pQe_cDN1jIxMdFhL2EpzsCyis
+id: material_compile_content
+theme: material_compile
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

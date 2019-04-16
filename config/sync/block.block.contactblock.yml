@@ -1,0 +1,29 @@
+uuid: 700728c1-829b-45a6-8163-535c67302dd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_form
+  module:
+    - block_visibility_groups
+    - contact_block
+  theme:
+    - custom_bootstrap
+id: contactblock
+theme: custom_bootstrap
+region: content
+weight: -5
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: Contact
+  provider: contact_block
+  label_display: visible
+  contact_form: contact_form
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

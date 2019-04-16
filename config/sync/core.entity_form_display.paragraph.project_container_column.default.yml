@@ -1,0 +1,29 @@
+uuid: bf91d78c-9e9e-492a-a92d-52c0693548e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.project_container_column.field_project
+    - paragraphs.paragraphs_type.project_container_column
+  module:
+    - paragraphs
+id: paragraph.project_container_column.default
+targetEntityType: paragraph
+bundle: project_container_column
+mode: default
+content:
+  field_project:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

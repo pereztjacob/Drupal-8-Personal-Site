@@ -1,0 +1,39 @@
+uuid: 5c015db1-ab37-4822-a52e-bc74a51c7f35
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'display eu cookie compliance popup'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view paragraph content bp_accordion'
+  - 'view paragraph content bp_accordion_section'
+  - 'view paragraph content bp_blank'
+  - 'view paragraph content bp_block'
+  - 'view paragraph content bp_carousel'
+  - 'view paragraph content bp_column_wrapper'
+  - 'view paragraph content bp_columns'
+  - 'view paragraph content bp_columns_three_uneven'
+  - 'view paragraph content bp_columns_two_uneven'
+  - 'view paragraph content bp_image'
+  - 'view paragraph content bp_modal'
+  - 'view paragraph content bp_simple'
+  - 'view paragraph content bp_tab_section'
+  - 'view paragraph content bp_tabs'
+  - 'view paragraph content bp_view'
+  - 'view paragraph content elevator_pitch'
+  - 'view paragraph content media'
+  - 'view paragraph content project_boxes'
+  - 'view paragraph content project_container_column'
+  - 'view paragraph content rich'
+  - 'view paragraph content site_header'

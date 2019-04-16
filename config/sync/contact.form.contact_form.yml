@@ -1,0 +1,20 @@
+uuid: 42126b09-1457-4253-97a1-504e0b79ad65
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_ajax
+third_party_settings:
+  contact_ajax:
+    enabled: true
+    prefix_id: ''
+    render_selector: ''
+    confirmation_type: 1
+id: contact_form
+label: 'Contact Form'
+recipients:
+  - pereztjacob@gmail.com
+reply: ''
+weight: 0
+message: 'You''re message has been sent! '
+redirect: ''

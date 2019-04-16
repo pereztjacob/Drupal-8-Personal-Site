@@ -1,0 +1,22 @@
+uuid: 672f8c9b-8b67-4568-b2ff-2eec0a2a1d8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.elevator_pitch.field_pitch
+    - paragraphs.paragraphs_type.elevator_pitch
+  module:
+    - text
+id: paragraph.elevator_pitch.default
+targetEntityType: paragraph
+bundle: elevator_pitch
+mode: default
+content:
+  field_pitch:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

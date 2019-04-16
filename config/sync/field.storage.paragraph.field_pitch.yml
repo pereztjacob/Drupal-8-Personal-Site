@@ -1,0 +1,19 @@
+uuid: 1355461e-f872-4988-8d17-50483c1bb9d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_pitch
+field_name: field_pitch
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

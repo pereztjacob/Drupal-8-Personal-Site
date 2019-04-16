@@ -1,0 +1,19 @@
+uuid: fcb9aa95-0c55-430b-9aa8-bdd18d73e3a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.rich
+id: paragraph.rich.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: rich
+label: 'Paragraph Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

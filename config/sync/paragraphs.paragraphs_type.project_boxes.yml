@@ -1,0 +1,9 @@
+uuid: ed5d0f57-a9b5-4b05-8e7a-1a2f19bf124e
+langcode: en
+status: true
+dependencies: {  }
+id: project_boxes
+label: 'Project Boxes'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
