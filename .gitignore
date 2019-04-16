@@ -6,6 +6,7 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
+/web/sites/jacob.lndo.site/
 
 # Ignore all custom theme node modules
 /web/themes/custom/*/node_modules
