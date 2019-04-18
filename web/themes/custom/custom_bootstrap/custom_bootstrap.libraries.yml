@@ -29,6 +29,6 @@ slick:
 
 projects_slider:
   js:
-    assets/js/project-slider: {}
+    assets/js/project-slider.js: {}
   dependencies:
     - custom_bootstrap/slick
