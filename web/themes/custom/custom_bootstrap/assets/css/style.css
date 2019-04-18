@@ -6557,6 +6557,9 @@ footer {
   background-color: #000000;
   border-radius: 4px; }
 
+.project-teaser-container {
+  position: relative; }
+
 .project-teaser-container:hover .project-teaser-overlay {
   opacity: 0.7; }
 

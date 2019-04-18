@@ -1,5 +1,4 @@
 .project-teaser-overlay {
-
   position: absolute;
   top: 0;
   bottom: 0;
@@ -7,11 +6,14 @@
   right: 0;
   height: 100%;
   width: 100%;
-
   opacity: 0;
   transition: .5s ease;
   background-color: #000000;
   border-radius: 4px;
+}
+
+.project-teaser-container {
+  position: relative;
 }
 
 .project-teaser-container:hover .project-teaser-overlay {
@@ -32,7 +34,6 @@
   .field--name-field-project-title {
     text-align: center;
     margin: 5px;
-
     font-size: 1.7rem;
     font-weight: 600;
   }
