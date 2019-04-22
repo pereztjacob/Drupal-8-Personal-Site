@@ -17,20 +17,19 @@ h2.block-title {
   max-width: 85vw;
 
   padding: 3px;
-  background-color: #e1bee7;
+  background-color: white;
   box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
   margin: 20px 10px;;
   border-radius: 4px;
   img {
-    border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
   }
 }
 
 .field--name-field-project-title {
   text-align: center;
   margin: 5px;
-  border-bottom: 1px solid black;
-
+  background-color: #373737;
   font-size: 1.7rem;
   font-weight: 600;
 }
@@ -52,10 +51,10 @@ h2.block-title {
 }
 
 .project-teaser-text {
-  padding-top: 5px;
+  color: white;
   .project-teaser-text-bg {
-    background-color: #fff5ff;
-    border-radius: 4px;
+    background-color: #272727;
+    border-radius: 0px 0px 4px 4px;
     padding: 5px;
   }
 }
