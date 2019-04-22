@@ -10,7 +10,7 @@
         slidesToShow: 5,
         slidesToScroll: 1,
         variableWidth: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
         arrow: false,
@@ -23,7 +23,7 @@
               slidesToShow: 3,
               slidesToScroll: 1,
               variableWidth: true,
-              autoplay: false,
+              autoplay: true,
               autoplaySpeed: 2000,
               arrow: false,
               dots: true
@@ -37,7 +37,7 @@
               slidesToShow: 1,
               slidesToScroll: 1,
               variableWidth: true,
-              autoplay: false,
+              autoplay: true,
               autoplaySpeed: 2000,
               arrow: false,
               dots: true
