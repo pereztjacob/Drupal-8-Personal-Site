@@ -6434,6 +6434,7 @@ h2.block-title {
 .field--name-field-project-title {
   text-align: center;
   margin: 5px;
+  color: white;
   background-color: #373737;
   font-size: 1.7rem;
   font-weight: 600; }
