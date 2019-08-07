@@ -12,7 +12,7 @@
 @import "component/navbar";
 @import "component/node";
 @import "component/panel";
-@import "component/progress-bar"; 
+@import "component/progress-bar";
 @import "component/table-drag";
 @import "component/tabs";
 @import "component/toolbar";
@@ -22,6 +22,7 @@
 @import "component/overlay";
 @import "component/contact";
 @import "component/project";
+@import "component/color-scheme"; 
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";

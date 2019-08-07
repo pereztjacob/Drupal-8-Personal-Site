@@ -19,6 +19,7 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   site_header: 'Site Header'
+  colors: 'Color Scheme'
 
 libraries-extend:
   bootstrap/framework:
